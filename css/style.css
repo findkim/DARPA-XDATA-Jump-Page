@@ -39,7 +39,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #44ABDF;
+    color: #3D9AC9;
     text-decoration:none;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -73,7 +73,7 @@ p {
 }
 .navbar .brand img {
     width:120px;
-    height:40px;
+    height:60px;
 }
 .navbar .nav > li > a {
     text-transform:uppercase;
@@ -90,7 +90,7 @@ p {
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #44ABDF;
+    border: 1px solid #3D9AC9;
     color: #fff;
     background-color: #181A1C;
     transition: border-color 1s ease;
@@ -114,8 +114,23 @@ p {
 }
 .navbar .btn-navbar:hover, .navbar .btn-navbar {
     border-radius:0;
-    background:#44ABDF;
+    background:#3D9AC9;
     color: #000;
+}
+.list li {
+    font-weight: 100;
+    text-align: left;
+    padding: 5px;
+    margin-left: 2cm;
+    list-style-type:disc;
+    line-height:1.2em;
+    font-size:17px;
+    line-height:20px;
+}
+.sublist li {
+    font-size:15px;
+    list-style-type:circle;
+    font-family:'Roboto';
 }
 /******
 2. Layout
@@ -219,20 +234,20 @@ p {
 }
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
-    background-color:#44ABDF;
+    background-color:#3D9AC9;
     color:#181A1C;
 }
 .button-sp:hover, .button-sp:active {
     background-color:#181A1C;
-    color:#44ABDF;
+    color:#3D9AC9;
 }
 .button-ps, .button-ps:visited, .button-ps:focus {
     border:none;
     background-color:#181A1C;
-    color:#44ABDF;
+    color:#3D9AC9;
 }
 .button-ps:hover, .button-ps:active {
-    background-color:#44ABDF;
+    background-color:#3D9AC9;
     color:#181A1C;
 }
 /*
@@ -283,7 +298,7 @@ p {
     z-index:4;
 }
 .thumbnail h3 {
-    color: #44ABDF;
+    color: #3D9AC9;
     margin-top:10px;
     font-size:20px;
 }
@@ -329,7 +344,7 @@ p {
     padding:0;
     width:32px;
     height:32px;
-    color: #44ABDF;
+    color: #3D9AC9;
 }
 .social li a:hover {
     color:#181A1C;
@@ -362,19 +377,19 @@ p {
     background:#181A1C;
 }
 .primary-section .triangle {
-    border-top: 40px solid #44ABDF;
+    border-top: 40px solid #3D9AC9;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #44ABDF;
+    color: #3D9AC9;
 }
 .primary-section h1 {
     color:#FFF;
 }
 .secondary-section {
-    background:#44ABDF;
+    background:#3D9AC9;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;
@@ -386,7 +401,7 @@ p {
 .third-section {
     padding-bottom: 70px;
     background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #44ABDF;
+    border-top:6px solid #3D9AC9;
 }
 .third-section .container {
     padding-top:20px;
@@ -394,7 +409,7 @@ p {
 }
 .third-section .title {
     border-bottom: 1px solid #A1AAB7;
-    color: #44ABDF;
+    color: #3D9AC9;
 }
 .sub-section {
     margin-top:30px;
@@ -438,7 +453,7 @@ p {
 .project-title {
     margin-top:15px;
     margin-bottom:15px;
-    border-bottom:1px solid #44ABDF;
+    border-bottom:1px solid #3D9AC9;
 }
 .project-title h3 {
     float:left;
@@ -447,11 +462,11 @@ p {
     width:80%;
 }
 .project-title .close {
-    color: #44ABDF;
+    color: #3D9AC9;
     margin-top:10px;
 }
 .project-info span, .project-title h3 {
-    color:#44ABDF;
+    color:#3D9AC9;
 }
 .project-info {
     font-weight:100;
@@ -491,7 +506,7 @@ p {
     color:#fff;
 }
 .team .thumbnail .mask {
-    background: #44ABDF;
+    background: #3D9AC9;
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
@@ -532,7 +547,7 @@ p {
 .skills li .bar {
     height:40px;
     position:absolute;
-    background-color: #44ABDF;
+    background-color: #3D9AC9;
 }
 /*
 3.4 Clients
@@ -541,7 +556,7 @@ p {
     border:1px solid white;
 }
 .client-slider img:hover {
-    background-color:#44ABDF;
+    background-color:#3D9AC9;
 }
 .client-nav {
     list-style:none;
@@ -555,7 +570,7 @@ p {
 .client-nav li a {
     display:inherit;
     padding:5px;
-    background:#44ABDF;
+    background:#3D9AC9;
     border-radius:3px;
     width:20px;
     height:20px;
@@ -565,14 +580,14 @@ p {
 }
 .testimonial p {
     color:#181A1C;
-    background:#44ABDF;
+    background:#3D9AC9;
     padding:15px;
     margin:0;
 }
 .testimonial .arrow {
     margin-left:10px;
     width:0;
-    border-top:10px solid #44ABDF;
+    border-top:10px solid #3D9AC9;
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
@@ -624,7 +639,7 @@ p {
     background-color:#181A1C;
     text-transform:uppercase;
     text-align: center;
-    color:#44ABDF;
+    color:#3D9AC9;
     padding:40px 0px;
     font-size: 36px;
     margin-top:0px;
@@ -687,7 +702,7 @@ p {
 3.7 Contact
 ********************************************************************/
  .contact {
-    background: #44ABDF;
+    background: #3D9AC9;
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
     color: #181A1C;
@@ -775,7 +790,7 @@ p {
     font-size:17px;
 }
 .message-btn:hover {
-    background-color:#44ABDF;
+    background-color:#3D9AC9;
 }
 .contact-info {
     text-align:center;
@@ -815,7 +830,7 @@ p {
     right:20px;
 	border:1px solid #fff;
     display:none;
-    background: #44ABDF;
+    background: #3D9AC9;
 }
 .scrollup > a {
     position:relative;
