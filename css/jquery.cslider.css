@@ -1283,6 +1283,12 @@
     }
 }
 
+@media (max-width: 1050px) {
+    .da-slide p2 {
+        display: none;
+    }
+}
+
 @media (max-width: 979px) {
     .da-slide h2 {
         font-size: 28px;
