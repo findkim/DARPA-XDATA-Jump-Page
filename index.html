@@ -44,6 +44,17 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <link rel="shortcut icon" href="images/ico/favicon.ico?v=2"/>
+
+        <!-- Redirects to mobile web version -->
+        <script type="text/javascript">
+        var isMobile = function() {
+           //console.log("Navigator: " + navigator.userAgent);
+           return /(iphone|ipod|ipad|android|blackberry|windows ce|palm|symbian)/i.test(navigator.userAgent);
+         };
+        if(isMobile()) {
+            document.location = "mobile.html";
+        }
+        </script>
     </head>
     
     <body>
@@ -536,7 +547,7 @@ Arlington, VA 22203-2114</p>
                         <p>(703) 526-6630</p>
                         <div class="title">
                             <h3>More Information</h3>
-                            <a target="_blank" href="http://opencatalog.darpa.mil/XDATA.html">http://opencatalog.darpa.mil/XDATA.html</a>
+                            <a target="_blank" href="http://opencatalog.darpa.mil/XDATA.html" style="word-wrap: break-word;">http://opencatalog.darpa.mil/XDATA.html</a>
                         </div>
                     </div>
                     <div class="row-fluid centered">
@@ -564,7 +575,7 @@ Arlington, VA 22203-2114</p>
         <!-- Contact section edn -->
         <!-- Footer section start -->
         <div class="footer">
-            <p>Last updated: August 13, 2015</p>
+            <p>Last updated: November 4, 2015</p>
         </div>
         <!-- Footer section end -->
         <!-- ScrollUp button start -->

@@ -1,6 +1,7 @@
 .da-slider {
     width: 100%;
     min-width: 320px;
+    min-height: 250px;
     height: 5200px;
     position: relative;
     margin:0 auto;
@@ -53,8 +54,8 @@
 .da-slider-fb .da-slide.da-slide-current {
     left: 0px;
     display:block;
-
 }
+
 .da-slide h2, .da-slide h4, .da-slide p, .da-slide p2, .da-slide .da-link, .da-slide .da-img {
     position: absolute;
     opacity: 0;
@@ -1358,6 +1359,11 @@
         font-size: 14px;
         top: 70px;
     }
+
+    .da-dots {
+        display: none;
+    }
+
     
     .da-slide .da-img {
         display:none;

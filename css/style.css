@@ -29,7 +29,7 @@
 **********************************************************************/
  body {
     font-family:'Roboto', sans-serif;
-    color: #FFF;
+    background-color: #181A1C;
     line-height:1.2em;
     font-size:17px;
     line-height:20px;
@@ -855,6 +855,7 @@ p {
     body {
         padding-left:0;
         padding-right:0;
+        overflow-x: hidden;
     }
     .navbar-fixed-top, .navbar-fixed-bottom {
         position: fixed;
