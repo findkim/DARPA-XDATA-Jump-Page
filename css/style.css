@@ -440,9 +440,14 @@ p {
  .single-project {
     margin-bottom:30px;
     background:#181A1C;
+    color: #3D9AC9;
 }
 .single-project img {
     width:100%;
+}
+.single-project h4 {
+    padding-left: 15px;
+    color: #3D9AC9;
 }
 .project-description {
     padding-right:20px;
@@ -473,11 +478,17 @@ p {
     padding:10px 0;
 }
 .project-info span {
-    width: 80px;
+    width: 90px;
     display: inline-block;
 }
 .project-info div {
     margin-bottom:5px;
+}
+.project-info a {
+    color:#3D9AC9;
+}
+.project-info a:hover {
+    color:#FECE1A;
 }
 .close {
     float: right;
